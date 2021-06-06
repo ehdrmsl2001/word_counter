@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>word counter</title>
+    <meta charset="utf-8" />
+    <script src="engine.js"></script>
+  </head>
+  <body>
+    <center>
+      <h1>Word Counter</h1>
+      <textarea
+        name="text"
+        id="text"
+        cols="100"
+        rows="20"
+        style="margin: 10px"
+        placeholder="Input some text."
+      ></textarea>
+      <div id="with_space">공백 포함 : 0 자</div>
+      <div style="margin: 10px" id="without_space">공백 미포함 : 0 자</div>
+      <input
+        type="submit"
+        name=""
+        id=""
+        value="submit"
+        onclick="getWordCount()"
+      />
+    </center>
+  </body>
+</html>
